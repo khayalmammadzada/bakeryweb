@@ -1,0 +1,139 @@
+@media screen and (max-width:992px) {
+    .nav-links{
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width:992px){
+    .logo{
+        i{
+            display: block;
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .meal{
+        margin-top: 25px !important;
+        
+    }
+}
+ 
+
+main{
+    background-image: url(file:///Users/khayalmammadzada/Desktop/bakery-website/assets/images/43.jpeg);
+  .section-1{height: 290px;
+             width: 100%;
+    .row{
+        height: 100%;
+            .background-image{
+                background-image: url(https://newkit.moxcreative.com/breadmeal/wp-content/uploads/sites/6/2022/07/different-types-of-bread-with-spikelets-.jpg);
+                width: 100%;
+                height: 100%;
+                background-position: top;
+                background-size: cover;
+                object-fit: cover;
+                position: relative;
+                
+                &:after{
+                    content: "";
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: .4;
+                }
+                
+                
+
+                h2{
+                    font-weight: bolder;
+                    font-size: 45px;
+                }
+                .line{
+                    display: inline-block;
+                    width: 15px;
+                    height: 3px;
+                    background-color: rgb(174, 74, 32);;
+                    transform: translateY(-3px);
+                    margin: 0 3px;
+                }
+                .text{
+                    position: relative;
+                    top:40%;
+                    left: 5%;
+                    line-height: 35px;
+                    z-index: 1;
+                    
+                }
+            }
+      }
+
+  }
+
+  
+  .section-2{
+      margin-top: 70px;
+     
+     
+          .meal{
+              background-color: white;
+              
+            .image{
+                position: relative;
+                img{
+                  width: 403px;
+                  height: 443px;
+                  object-fit: cover;
+
+                  &:hover{
+                    filter: brightness(1.1);
+                    cursor: pointer;
+                  }
+                 
+                }
+  
+                &_text{
+                    width: 80px;
+                    height: 23px;
+                    background-color: white;
+                    color: #3a001e;
+                    text-align: center;
+                    font-size: 13px;
+                    position: absolute;
+                    left: 70%;
+                    top: 5%;
+                }
+            }
+            .text{
+                h2{
+                    color: #3a001e;
+                    padding: 0 20px;
+                    font-weight: 400px !important;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+                p{
+                    color: #757575;
+                    padding: 0 22px;
+                }
+                span{
+                    color: #e46e49;
+                    padding-left: 22px;
+                }
+            }
+          }
+      
+  }
+
+  
+}
+
+

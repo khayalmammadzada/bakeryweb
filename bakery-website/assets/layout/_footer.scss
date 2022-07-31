@@ -1,0 +1,128 @@
+footer{
+    margin-top: 100px;
+    background-image: url(https://newkit.moxcreative.com/breadmeal/wp-content/uploads/sites/6/2022/07/bread-and-bakery.jpg) ;
+    background-position: bottom;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+
+    &:after{
+        content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .4;
+   
+    }
+
+    .breadmeal{
+        z-index: 1;
+        padding: 80px 0;
+        .logo{
+           
+            text-align: center;
+            img{
+                cursor: pointer;
+                width: 178px;
+                height: 25px;
+               
+            }
+          
+        }
+        .text{
+            p{
+                color: white;
+            }
+        }
+
+        .icons{
+            display: flex;
+           
+
+            i{
+                color: white;
+                padding-top: 7px;
+            }
+            .social{
+                width: 30px;
+                height: 30px;
+                background-color: #e46e49;
+                text-align: center;
+                transition: .3sn;
+                
+                &:hover{
+                    transform: scale(0.85);
+                    transition: .3sn;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .company{
+        padding: 80px 0;
+        z-index: 1;
+        h5{
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: 250 !important;
+        }
+        i{
+            color: #e46e49;
+        }
+        ul{
+            
+            line-height: 35px;
+            
+        }
+        span{
+            color: white;
+            display: inline-block;
+            font-weight: 300 !important;
+        }
+    }
+    hr{
+        color: white;
+        z-index: 1;
+    }
+
+    .copyright{
+        padding-top: 5px;
+        padding-bottom: 80px;
+        z-index: 1;
+        p{
+            color: white;
+            font-weight: 250;
+            font-size: 14px;
+        }
+    }
+
+    .privacy-terms{
+        z-index: 1;
+        display: flex;
+        justify-content: flex-end;
+        span{
+            color: white;
+            font-size: 13px;
+            font-weight: 300;
+            cursor: pointer;
+        }
+        & span:last-child{
+            padding-left: 25px;
+        }
+
+        i{
+            color: white;
+            font-size: 6px;
+            color: #e46e49;
+        }
+    }
+
+}
